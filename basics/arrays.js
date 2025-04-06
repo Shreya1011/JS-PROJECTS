@@ -56,3 +56,13 @@ const newteam5=team5.flat(Infinity)
 console.log(newteam5)
 
 
+console.log(Array.isArray("Number")) //false
+console.log(Array.from("Number"))    //   [ 'N', 'u', 'm', 'b', 'e', 'r' ]   ,converts to array 
+ 
+console.log(Array.from({number:1}))  // [] - gives empty as it was specified which among the key or value has to be converted to array
+
+let score1=100
+let score2=200
+let score3=300
+
+console.log(Array.of(score1,score2,score3)) //returns a new array froma set of elements
